@@ -1,0 +1,78 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: #c4c4c4;
+
+}
+.main-card {
+  margin: 0 auto;
+  width: 360px;
+  height: 528px;
+  background-color:#FFFFFF;
+  border-radius: 16px;
+}
+.main-photo {
+  display: flex;
+  justify-content: flex-end;
+  width: 360px;
+  width: 100%;
+  height: 216px;
+}
+.info-icon {
+  position: absolute;
+  width: 32px;
+  height: 32px;
+}
+.card-name {
+  width: 198px;
+  height: 25px;
+  font-size: 24px;
+  color: #081f32;
+  margin: 24px 0px 24px 24px;
+}
+.pharagraf {
+  width: 290px;
+  height: 75px;
+  font-size: 16px;
+  color: #6e798c;
+  margin: 24px;
+}
+.pizza-desc {
+  display: flex;
+  flex-direction: row;
+  gap: 43px;
+  justify-content: center;
+  color: #6e798c;
+  margin: 23px 24px;
+}
+.bottom {
+  width: 320px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  color: #081f32;
+  font-size: 28px;
+
+  margin-top: 41px;
+  margin-left: 24px;
+}
+.sale-price {
+  font-size: 20px;
+  color: #f8593b;
+
+}
+.main-button{
+  width: 114px;
+  height: 44px;
+  font-size: 14px;
+  font-weight: bold;
+  background-color: #2ECC71;
+  border-style: none;
+  color: #FFFFFF;
+  cursor: pointer;
+}
+ 
+
